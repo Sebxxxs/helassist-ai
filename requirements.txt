@@ -1,0 +1,8 @@
+python-telegram-bot>=21,<23
+# APScheduler 4.x cambió por completo su API: mantener la rama 3.x
+apscheduler>=3.10,<4
+anthropic>=0.40
+python-dotenv>=1.0
+
+# Opcional: notas de voz (además requiere ffmpeg instalado en el sistema)
+# openai-whisper
